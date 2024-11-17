@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollspy con Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+    <header class="header">
+        <video autoplay muted loop class="video-background">
+            <source src="video-fondo.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+        </video>
+        
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Contenidos</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="28_de_Junio.html">28 de junio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="sexualidad.html">Sexualidad y 28 de junio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="Comunidad_LGBTIQ.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       LGBTIQ+
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="Comunidad_LGBTIQ.html">Comunidad LGBTIQ+</a></li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+        <div class="header-content text-center">
+            <h1>28 de junio</h1>
+            <p>Información importante sobre la ESI en Argentina y la comunidad LGBTQ+</p>
+        </div>
+    </header>
+
+<section>
+    <div class="container1-4">
+        <div class="una-seccion-mas2">
+<h2>Evolución de LBT a LGBTIQ+</h2>
+<p>En la década de 1990, los activistas lesbianas, gays y bisexuales adoptaron el acrónimo LGB para describir a 
+    su comunidad. Este término se amplió para incluir a personas transexuales, reconociendo las identidades 
+    de género como parte integral del movimiento, dando lugar al acrónimo LGBT. El término "transgénero" ganó
+     reconocimiento en la década de 1960 y se popularizó en los años 2000.</p>
+
+     <p>Más recientemente, se añadió la Q, que puede significar "queer" o "cuestionamiento",
+         reflejando una actitud de inclusión hacia todas las identidades sexuales y de género.
+          La Q se incorporó a partir de la década de 1990, cuando el término "queer" fue reivindicado
+           por activistas como una identidad inclusiva.</p>
+
+           <p>A medida que la comprensión y aceptación de la diversidad de género y sexualidad crecieron, 
+            se añadieron más letras al acrónimo, como la I para intersexuales y la A para asexuales, 
+            con el fin de abarcar una mayor variedad de identidades y experiencias. Esto refleja la evolución continua
+             y la ampliación del movimiento para ser más inclusivo.</p>
+             <div class="alert alert-dark" role="alert">
+                Fuente: <a href="https://www.nationalgeographic.es/historia/2024/06/evolucion-reconocimiento-identidad-lgtbiq" class="alert-link">Enlace</a>. Hce click para más informacion.
+              </div>
+    
+             <h2>Las diferentes banderas del colectivo LGBTIQ+</h2>
+             <p>Uno de los símbolos más importantes de este colectivo es su bandera.
+                 Tradicionalmente, el colectivo LGBT se encuentra representado por franjas de los colores
+                  del arcoíris. Fue el activista estadounidense Gilbert Baker quien tuvo esta idea en 1978, 
+                  al inspirarse en la canción “Over the rainbow” de Judy Garland. Con los años,
+                   la comunidad ha explorado otras identificaciones, las cuales cuentan con sus propias insignias:</p>
+                </div>
+            </div>
+                   <section id="tarjetas" class="py-4">
+                    <h2 class="text-center">Bandera del colectivo LGBTIQ+</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                              <a href="https://www.cromosomax.com/pics/2022/06/todo-sobre-la-bandera-del-orgullo-de-la-wlw-0.webp">
+                                <img src="BANDERA LESBICA.webp" class="card-img-top" alt="Descripción de la imagen">
+                              </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Bandera Lesbica</h5>
+                                    <p class="card-text">creada por la artista Emily Gwen en 2018, sus colores intentan reflejar
+                                       todas las posibilidades de identidad de género dentro del lesbianismo.</p> 
+                                    <a href="https://saficosmos.com/lbtq/historia-creacion-colores-significado-banderas-lesbicas/" class="btn btn-primary">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                              <a href="https://assets.megamediaradios.fm/2022/06/bandera-bisexual-1024x576.jpg">
+                                <img src="bandera-bisexual-1024x576.jpg" class="card-img-top" alt="Descripción de la imagen">
+                              </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Bandera Bisexual</h5>
+                                    <p class="card-text"> posee el color rosa en referencia a la atracción por el mismo sexo,
+                                       el azul por el sexo contrario y el violeta que expresa una combinación de ambos.</p>
+                                    <a href="https://banderaslgtb.com/bandera-bisexual/" class="btn btn-primary">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                              <a href= "https://media.gq.com.mx/photos/62b7293355c3e87dbdd42914/master/w_1600%2Cc_limit/bandera%2520trans.jpg">
+                                <img src="bandera trans.webp" class="card-img-top" alt="Descripción de la imagen"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Bnadera Trans</h5>
+                                    <p class="card-text"> fue diseñada por Monica Helm en 1999, una activista trans, que refleja los colores tradicionales
+                                       asociados a los géneros convencionales y el blanco, que expresa la intersexualidad.
+                                    </p>
+                                    <a href="https://www.reporteindigo.com/piensa/bandera-del-orgullo-trans-cual-es-el-significado-de-sus-colores/" class="btn btn-primary">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+<section>
+  <section id="tarjetas" class="py-4">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card h-100">
+              <a href= "https://blogs.kent.ac.uk/staff-student-news/files/2024/02/A-Sexual.jpg">
+                <img src="Bnadera asexual.jpg" class="card-img-top" alt="Descripción de la imagen"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Bandera Asexual</h5>
+                    <p class="card-text">está conformada por el color negro, que simboliza la asexualidad, 
+                      el gris que representa al individuo, el blanco que se encuentra asociado con la sexualidad y 
+                      el violeta, en emblema del colectivo.</p>
+                    <a href="https://banderaslgtb.com/bandera-asexual/" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+              <a href= "https://i.etsystatic.com/11417580/r/il/f66549/2985610934/il_300x300.2985610934_1i59.jpg">
+                <img src="bandera pansexual.webp" class="card-img-top" alt="Descripción de la imagen"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Bandera Pansexual</h5>
+                    <p class="card-text">consiste en los colores rosa como el género femenino, 
+                      azul como el masculino y el amarillo como aquellas identidades no binarias.</p>
+                    <a href="https://banderaslgtb.com/bandera-pansexual/" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+              <a href= "https://i.etsystatic.com/11417580/r/il/f66549/2985610934/il_300x300.2985610934_1i59.jpg">
+                <img src="bandera no binario.jpg" class="card-img-top" alt="Descripción de la imagen"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Bandera de Género No Binario</h5>
+                    <p class="card-text">cuenta con los tonos amarillos, en representación a la concepción de género por
+                       fuera del sistema binario, blanco para la intersexualidad, 
+                       violeta para aquellos que conciben su identidad como la mezcla del femenino y masculino y negro para
+                        quienes no se sienten representados con ninguna de las anteriores.</p>
+                    <a href="https://www.homosensual.com/lgbt/diversidad/conoce-la-historia-de-la-bandera-no-binaria/" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-warning" role="alert">
+    Fuente:<a href="https://www.lanacion.com.ar/sociedad/por-que-se-celebra-hoy-el-dia-internacional-del-orgullo-lgbt-nid28062024/" class="alert-link">Enlace</a>. Hace click para ver más informacion.
+    </div>
+</section>
+</section>
+</section>
+
+ 
+<div id="privacy-alert" class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Política de Privacidad:</strong> Este sitio utiliza cookies para garantizar una mejor experiencia. Al continuar navegando, aceptas nuestra <a href="#" class="alert-link">Política de Privacidad</a>.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      // Verificar si la alerta ya se cerró
+      if (!localStorage.getItem("privacyAlertClosed")) {
+          document.getElementById("privacy-alert").style.display = "block";
+      }
+
+      // Registrar el cierre de la alerta
+      document.querySelector("#privacy-alert .btn-close").addEventListener("click", function () {
+          localStorage.setItem("privacyAlertClosed", "true");
+      });
+  });
+</script>
+
+<footer class="footer-wave">
+  <div class="wave-container">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" class="wave">
+          <path d="M0,96L48,85.3C96,75,192,53,288,42.7C384,32,480,32,576,42.7C672,53,768,75,864,90.7C960,107,1056,117,1152,112C1248,107,1344,85,1392,74.7L1440,64L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" fill="url(#gradient)"></path>
+          <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:#6c63ff; stop-opacity:1" />
+                  <stop offset="25%" style="stop-color:#00c3ff; stop-opacity:1" />
+                  <stop offset="50%" style="stop-color:#00ffab; stop-opacity:1" />
+                  <stop offset="75%" style="stop-color:#ff8c00; stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#ff3b3b; stop-opacity:1" />
+              </linearGradient>
+          </defs>
+      </svg>
+  </div>
+  <div class="footer-content">
+      <p>&copy; 2024 - Luisina Salomón | EETP nro 669 | Educación Sexual Integral</p>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
